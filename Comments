@@ -1,0 +1,44 @@
+Interpretation of Results:
+
+Estimator Comparison:
+
+Both UMVU and MME estimators yielded very similar values, which is expected given our large sample size.
+The small differences between the estimators are due to sampling variance.
+
+
+Probability Analysis:
+For both estimators:
+
+P(X > a) is approximately 0.368 (≈ 1/e)
+P(X < a) is approximately 0.632 (≈ 1-1/e)
+
+
+Theoretical Alignment:
+
+These results align perfectly with theoretical expectations for an exponential distribution
+When using the mean value (a), we expect:
+
+P(X > μ) = 1/e ≈ 0.368
+P(X < μ) = 1-1/e ≈ 0.632
+
+
+
+
+Empirical Validation:
+
+The empirical probabilities closely match the theoretical values
+This strong alignment confirms that our data follows an exponential distribution
+The close match between empirical and theoretical probabilities validates our choice of distribution
+
+
+Overall Assessment:
+
+The analysis confirms that our data follows an exponential distribution
+Both UMVU and MME estimators perform well for this dataset
+The consistency between theoretical and empirical probabilities suggests our model is a good fit
+The large sample size contributes to the reliability of our estimates
+
+
+
+This comprehensive analysis demonstrates that both UMVU and MME estimators are effective for this dataset, with results that closely align with theoretical expectations for an exponential distribution. 
+The minimal differences between the two estimation methods suggest that either approach would be suitable for practical applications with this dataset.
